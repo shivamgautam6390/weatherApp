@@ -6,7 +6,7 @@ function App(){
   const [city,setCity]=useState("");
   const [weather,setWeather]=useState(null);
   const [error,setError]=useState(" ");
-  const API_KEY ="420281da767f8475286698c0321de44f"
+  const API_KEY ="//api key"
   const API_URL = `https://api.openweathermap.org/data/2.5/weather`;
   const fetchWeather=async()=>{
     if(!city){
