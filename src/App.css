@@ -1,0 +1,53 @@
+.container{
+  margin: 100px auto;
+  width:400px;
+  height:420px;
+  border:2px solid #000;
+  background:url("./assets/12.jpg");
+  background-size:cover;
+  background-position:center;
+  text-align:center;
+  border-radius:10px;
+  box-shadow:0 0 10px rgba(0,0,0,0.5);
+  overflow:hidden;
+  transition:0.5s;
+  color:#fff;
+
+  /* background-repeat: no-repeat; */
+  
+}
+.weather>p{
+  color:#f80606;
+  font-weight:bolder;
+  text-shadow:0 0 20px black;
+  font-size:1.5rem;
+  margin:10px auto;
+  text-decoration: double;
+
+}
+.inputbtn>input{
+  border-radius:5px;
+  padding:10px;
+  margin:10px;
+  border:none;
+  box-shadow:0 0 10px rgba(0,0,0,0.5);
+  outline:none;
+  text-align:center;
+}
+.inputbtn>button{
+  border-radius:5px;
+  padding:10px;
+  margin:10px;
+  border:none;
+  box-shadow:0 0 10px rgba(0,0,0,0.5);
+  outline:none;
+  text-align:center;
+  background-color:#0d37f3;
+  color:#fff;
+  cursor:pointer;
+  transition:0.5s;
+}
+.inputbtn>button:hover{
+  background-color:#fff;
+  color:#0d37f3;
+}
